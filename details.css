@@ -1,0 +1,124 @@
+.product-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    max-width: 1100px;
+    margin: 50px auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-image img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.product-image img:hover {
+    transform: scale(1.05);
+}
+
+.product-details {
+    max-width: 500px;
+}
+
+.product-details h2 {
+    font-size: 28px;
+    font-weight: 700;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.product-details p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.product-details ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.product-details ul li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 8px;
+}
+
+.product-details ul li::before {
+    content: "✔";
+    color: #28a745;
+    margin-right: 10px;
+}
+
+.product-details label {
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    color: #333;
+}
+
+.product-details input[type="number"] {
+    width: 60px;
+    padding: 8px;
+    font-size: 16px;
+    text-align: center;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease-in-out;
+}
+
+.product-details input[type="number"]:focus {
+    border-color: #28a745;
+}
+
+.add-to-cart {
+    display: inline-block;
+    padding: 12px 25px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 15px;
+}
+
+.add-to-cart:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+
+.cart-btn{
+    padding: 10px 15px;
+    background-color: #218838;
+    border-radius: 10%;
+    color:whitesmoke;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .product-section {
+        flex-direction: column;
+        text-align: center;
+        padding: 40px;
+    }
+
+    .product-image img {
+        width: 80%;
+    }
+}
+

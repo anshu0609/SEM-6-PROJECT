@@ -1,0 +1,330 @@
+@font-face {
+  font-family: myfont;
+  src: url(font1.ttf);
+}
+.a1 {
+  overflow: auto;
+  display: flex;
+}
+.a1 .furn-logo img {
+  width: 100%;
+}
+.a1 .navbar {
+  background-color: #F2E1D9;
+  height: 110px;
+  float: left;
+}
+.a1 .navbar ul li {
+  display: inline-block;
+  padding: 25px 25px;
+}
+.a1 .navbar a {
+  font-size: 14px;
+  color: black;
+  text-decoration: none;
+  font-family: myfont;
+}
+.a1 .navbar :hover {
+  color: #FF8D5F;
+}
+.a1 .navbar #txt1 {
+  padding-right: 350px;
+}
+.a1 .navbar .bag {
+  padding-right: 55px;
+}
+
+.a2 {
+  overflow: auto;
+  position: absolute;
+}
+
+.a3 {
+  overflow: auto;
+  position: relative;
+  padding-left: 150px;
+  padding-top: 200px;
+  background-image: url("https://preview.colorlib.com/theme/furn/assets/img/hero/h1_hero.png");
+}
+.a3 .a3-desc {
+  padding: 75px;
+  background-color: transparent;
+  background-color: white;
+  width: 45%;
+}
+.a3 .a3-desc #text1 {
+  color: #C2C5DB;
+  font-family: myfont;
+  font-size: 26px;
+}
+.a3 .a3-desc #text2 {
+  color: black;
+  font-family: myfont;
+  font-size: 70px;
+}
+.a3 .a3-desc #text3 {
+  color: #670000;
+}
+.a3 .a3-desc .btn button {
+  width: 100%;
+  height: 58px;
+  border: 1px solid #FF8D5F;
+  color: #FF8D5F;
+  font-family: myfont1;
+}
+.a3 .a3-desc .btn :hover {
+  background-color: #FF8D5F;
+  color: white;
+}
+
+.a4 {
+  overflow: auto;
+  width: 100%;
+  padding-top: 140px;
+  display: flex;
+}
+.a4 .a4-img {
+  width: 55%;
+}
+.a4 .a4-body {
+  background-color: #F2E1D9;
+  width: 100%;
+  padding: 30px;
+}
+.a4 .a4-body #txt2 {
+  padding-top: 100px;
+  font-family: myfont;
+}
+.a4 .a4-body #txt3 {
+  padding-top: 60px;
+  font-family: myfont1;
+}
+.a4 .a4-body #txt4 {
+  font-family: myfont1;
+}
+.a4 .a4-body .btn button {
+  width: 100%;
+  height: 58px;
+  border: 1px solid #FF8D5F;
+  color: #FF8D5F;
+  font-family: myfont1;
+}
+.a4 .a4-body .btn :hover {
+  background-color: #FF8D5F;
+  color: white;
+}
+
+.a5 {
+  overflow: auto;
+}
+.a5 #txt5 {
+  text-align: center;
+  padding-top: 100px;
+  font-family: myfont;
+}
+.a5 #txt6 {
+  text-align: center;
+  padding-top: 10px;
+  font-family: myfont1;
+}
+.a5 .a5-chair {
+  padding: 80px;
+  display: flex;
+}
+.a5 .a5-chair .card {
+  margin: 2%;
+  width: 33%;
+}
+.a5 .a5-chair .card .card-img img {
+  width: 100%;
+}
+.a5 .a5-chair .card .card-body {
+  text-align: center;
+}
+.a5 .a5-chair .card .card-body a {
+  text-decoration: none;
+  color: black;
+  font-family: myfont;
+}
+.a5 .a5-chair .card .card-body li {
+  list-style: none;
+}
+.a5 .a5-chair .card .card-body #txt7 {
+  color: #670000;
+  padding-left: 30px;
+}
+.a5 .btn1 {
+  justify-content: center;
+  display: flex;
+}
+.a5 .btn1 button {
+  width: 20%;
+  height: 48px;
+  border: 1px solid #FF8D5F;
+  color: #FF8D5F;
+  font-family: myfont1;
+}
+.a5 .btn1 :hover {
+  background-color: #FF8D5F;
+  color: white;
+}
+
+.a6 {
+  overflow: auto;
+  padding-top: 60px;
+  display: flex;
+  width: 100%;
+}
+.a6 .a6-left #txt8 {
+  font-family: myfont;
+  font-size: 36px;
+}
+.a6 .a6-left .btn1 button {
+  width: 70%;
+  height: 48px;
+  border: 1px solid #FF8D5F;
+  color: #FF8D5F;
+  font-family: myfont1;
+}
+.a6 .a6-left .btn1 :hover {
+  background-color: #FF8D5F;
+  color: white;
+}
+.a6 .a6-right {
+  width: 40%;
+}
+.a6 .a6-right img {
+  width: 100%;
+}
+.a6 .a6-img {
+  width: 40%;
+}
+.a6 .a6-img img {
+  width: 100%;
+}
+
+.a7 {
+  overflow: auto;
+  padding-top: 50px;
+}
+.a7 #txt10 {
+  text-align: center;
+  font-family: myfont;
+  font-size: 40px;
+}
+.a7 #txt11 {
+  text-align: center;
+  font-family: myfont2;
+  font-size: 20px;
+}
+.a7 .a7-sofa {
+  padding: 80px;
+  display: flex;
+}
+.a7 .a7-sofa .card {
+  margin: 2%;
+  width: 33%;
+}
+.a7 .a7-sofa .card .card-img img {
+  width: 100%;
+}
+.a7 .a7-sofa .card .card-body {
+  text-align: center;
+}
+.a7 .a7-sofa .card .card-body a {
+  text-decoration: none;
+  color: black;
+  font-family: myfont;
+}
+.a7 .a7-sofa .card .card-body li {
+  list-style: none;
+}
+.a7 .a7-sofa .card .card-body #txt12 {
+  color: #670000;
+  padding-left: 30px;
+}
+.a7 .a7-sofa .card .card-body #txt13 {
+  color: #670000;
+  padding-left: 30px;
+}
+.a7 .a7-sofa .card .card-body #txt14 {
+  color: #670000;
+  padding-left: 30px;
+}
+.a7 .btn1 {
+  justify-content: center;
+  display: flex;
+}
+.a7 .btn1 button {
+  width: 20%;
+  height: 48px;
+  border: 1px solid #FF8D5F;
+  color: #FF8D5F;
+  font-family: myfont1;
+}
+.a7 .btn1 :hover {
+  background-color: #FF8D5F;
+  color: white;
+}
+
+footer {
+  font-family: poppins;
+  background-color: #F2E1D9;
+}
+footer .upper-footer {
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+footer .upper-footer .footer-item i {
+  font-size: 40px;
+  padding: 20px;
+}
+footer .upper-footer .footer-item h3 {
+  font-size: 24px;
+  padding: 10px;
+}
+footer .upper-footer .footer-item p {
+  font-size: 17px;
+  padding: 10px;
+}
+footer .lower-footer {
+  background-color: #1D2547;
+  color: #FD8F5F;
+  padding: 50px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  font-size: 20px;
+  gap: 20px;
+  justify-content: center;
+}
+footer .lower-footer .lower-footer-items {
+  padding: 20px;
+}
+footer .lower-footer .lower-footer-items p {
+  font-size: 17px;
+  padding: 20px 0px;
+}
+footer .lower-footer .lower-footer-items h3 {
+  color: whitesmoke;
+}
+footer .lower-footer .lower-footer-items ul {
+  padding: 10px 0px;
+}
+footer .lower-footer .lower-footer-items ul li {
+  padding: 10px 0px;
+}
+footer .lower-footer .lower-footer-items ul a {
+  color: #FD8F5F;
+}
+footer .lower-footer .lower-footer-items .social-media {
+  display: flex;
+  gap: 20px;
+}
+footer .lower-footer .lower-footer-items .social-media i {
+  color: #F2E1D9;
+  font-size: 30px;
+}/*# sourceMappingURL=furns.css.map */

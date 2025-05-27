@@ -1,0 +1,433 @@
+@font-face {
+    font-family: myfont;
+    src: url(font1.ttf);
+}
+
+.a1 {
+
+    overflow: auto;
+    display: flex;
+
+    .furn-logo {
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .navbar {
+        background-color: #F2E1D9;
+        height: 110px;
+        float: left;
+
+        ul li {
+            display: inline-block;
+            padding: 25px 25px;
+
+        }
+
+        a {
+            font-size: 14px;
+            color: black;
+            text-decoration: none;
+            font-family: myfont;
+
+        }
+
+        :hover {
+            color: #FF8D5F;
+        }
+
+        #txt1 {
+            padding-right: 350px;
+
+        }
+
+        .bag {
+            padding-right: 55px;
+        }
+    }
+}
+
+.a2 {
+    overflow: auto;
+    position: absolute;
+
+}
+
+.a3 {
+    overflow: auto;
+    position: relative;
+    padding-left: 150px;
+    padding-top: 200px;
+   background-image: url("https://preview.colorlib.com/theme/furn/assets/img/hero/h1_hero.png");
+
+    .a3-desc{
+        
+        padding: 75px;
+        background-color: transparent;
+        #text1{
+            color: #C2C5DB;
+            font-family: myfont;
+            font-size: 26px;
+           
+        }
+        #text2{
+            color: black;
+            font-family: myfont;
+            font-size:70px;
+            
+        }
+        #text3{
+            color:#670000;
+        }
+        background-color:white;
+        width: 45%;
+        
+        .btn {
+
+            button {
+                width: 100%;
+                height: 58px;
+                border: 1px solid #FF8D5F;
+                color: #FF8D5F;
+                font-family: myfont1;
+            }
+
+            :hover {
+                background-color: #FF8D5F;
+                color: white;
+            }
+        }
+    }
+}
+
+.a4 {
+    overflow: auto;
+    width: 100%;
+    padding-top: 140px;
+    display: flex;
+
+    .a4-img {
+        width: 55%;
+    }
+
+    .a4-body {
+        background-color: #F2E1D9;
+        width: 100%;
+        padding: 30px;
+
+        #txt2 {
+            padding-top: 100px;
+            font-family: myfont;
+        }
+
+        #txt3 {
+            padding-top: 60px;
+            font-family: myfont1;
+        }
+
+        #txt4 {
+            font-family: myfont1;
+        }
+
+        .btn {
+
+            button {
+                width: 100%;
+                height: 58px;
+                border: 1px solid #FF8D5F;
+                color: #FF8D5F;
+                font-family: myfont1;
+            }
+
+            :hover {
+                background-color: #FF8D5F;
+                color: white;
+            }
+        }
+
+    }
+}
+
+.a5 {
+    overflow: auto;
+
+    #txt5 {
+        text-align: center;
+        padding-top: 100px;
+        font-family: myfont;
+    }
+
+    #txt6 {
+        text-align: center;
+        padding-top: 10px;
+        font-family: myfont1;
+
+    }
+
+    .a5-chair {
+        padding: 80px;
+        display: flex;
+
+        .card {
+            margin: 2%;
+            width: 33%;
+
+            .card-img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .card-body {
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: myfont;
+                }
+
+                li {
+                    list-style: none;
+                }
+
+                #txt7 {
+                    color: #670000;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+
+    .btn1 {
+        justify-content: center;
+        display: flex;
+
+        button {
+            width: 20%;
+            height: 48px;
+            border: 1px solid #FF8D5F;
+            color: #FF8D5F;
+            font-family: myfont1;
+        }
+
+        :hover {
+            background-color: #FF8D5F;
+            color: white;
+        }
+
+
+    }
+}
+
+.a6 {
+    overflow: auto;
+    padding-top: 60px;
+    display: flex;
+    width: 100%;
+
+    .a6-left {
+        #txt8 {
+            font-family: myfont;
+            font-size: 36px;
+        }
+
+        .btn1 {
+
+            button {
+                width: 70%;
+                height: 48px;
+                border: 1px solid #FF8D5F;
+                color: #FF8D5F;
+                font-family: myfont1;
+            }
+
+            :hover {
+                background-color: #FF8D5F;
+                color: white;
+            }
+
+
+        }
+    }
+
+    .a6-right {
+        width: 40%;
+
+        img {
+            width: 100%;
+        }
+
+    }
+
+    .a6-img {
+        width: 40%;
+
+        img {
+            width: 100%;
+        }
+    }
+}
+
+
+
+.a7 {
+    overflow: auto;
+    padding-top: 50px;
+
+    #txt10 {
+        text-align: center;
+        font-family: myfont;
+        font-size: 40px;
+    }
+
+    #txt11 {
+        text-align: center;
+        font-family: myfont2;
+        font-size: 20px;
+    }
+
+    .a7-sofa {
+        padding: 80px;
+        display: flex;
+
+        .card {
+            margin: 2%;
+            width: 33%;
+
+            .card-img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            .card-body {
+                text-align: center;
+                a {
+                    text-decoration: none;
+                    color: black;
+                    font-family: myfont;
+                }
+
+                li {
+                    list-style: none;
+                }
+
+                #txt12 {
+                    color: #670000;
+                    padding-left: 30px;
+                }
+
+                #txt13 {
+                    color: #670000;
+                    padding-left: 30px;
+                }
+
+                #txt14 {
+                    color: #670000;
+                    padding-left: 30px;
+                }
+            }
+        }
+    }
+
+    .btn1 {
+        justify-content: center;
+        display: flex;
+
+        button {
+            width: 20%;
+            height: 48px;
+            border: 1px solid #FF8D5F;
+            color: #FF8D5F;
+            font-family: myfont1;
+        }
+
+        :hover {
+            background-color: #FF8D5F;
+            color: white;
+        }
+
+
+    }
+
+}
+
+footer {
+    font-family: poppins;
+    background-color: #F2E1D9;
+
+    .upper-footer {
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 20px;
+        gap: 20px;
+        justify-content: center;
+
+        .footer-item {
+            i {
+                font-size: 40px;
+                padding: 20px;
+            }
+
+            h3 {
+                font-size: 24px;
+                padding: 10px;
+            }
+
+            p {
+                font-size: 17px;
+                padding: 10px;
+            }
+        }
+    }
+
+    .lower-footer {
+        background-color: #1D2547;
+        color: #FD8F5F;
+        padding: 50px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        font-size: 20px;
+        gap: 20px;
+        justify-content: center;
+
+        .lower-footer-items {
+            padding: 20px;
+
+            p {
+                font-size: 17px;
+                padding: 20px 0px;
+            }
+
+            h3 {
+                color: whitesmoke;
+            }
+
+            ul {
+                padding: 10px 0px;
+
+                li {
+                    padding: 10px 0px;
+                }
+
+                a {
+                    color: #FD8F5F;
+                }
+            }
+
+            .social-media {
+                display: flex;
+                gap: 20px;
+
+                i {
+                    color: #F2E1D9;
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+

@@ -1,0 +1,137 @@
+/* General styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    margin: 0;
+    height: 100vh;
+    background: #F2E1D9;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 250px;
+    background: #1D2547;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    padding: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.sidebar ul li a:hover {
+    background: #FD8F5F;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.bottom-links a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    margin-bottom: 10px;
+    background: #FD8F5F;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.bottom-links .logout-btn {
+    background: #ff4d4d;
+}
+
+.bottom-links a:hover {
+    opacity: 0.9;
+}
+
+/* Main content */
+.main-content {
+    padding: 50px;
+    width: 1100px;
+    background: white;
+    border-radius: 10px;
+    margin: auto;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.profile-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-header h1 {
+    font-size: 32px;
+    color: #1D2547;
+}
+
+.profile-header p {
+    color: #555;
+    font-size: 18px;
+}
+
+/* Profile Card */
+.profile-card {
+    background: #F2E1D9;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0px 5px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background: #FD8F5F;
+    color: white;
+    font-weight: bold;
+}
+
+td {
+    background: #fff;
+}
+
+.profile-actions {
+    margin-top: 20px;
+}
+
+.profile-actions h3 {
+    font-size: 1.5rem;
+}
+
+.profile-actions .btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.profile-actions .btn:hover {
+    background-color: #0056b3;
+}

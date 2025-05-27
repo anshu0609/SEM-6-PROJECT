@@ -1,0 +1,68 @@
+$primary-color: #FD8F5F;
+$secondary-color: #F2E1D9;
+$dark-color: #1D2547;
+$text-color: black;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: $secondary-color;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    background-color: $dark-color;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+}
+
+.checkout-container {
+    max-width: 600px;
+    margin: 40px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.order-summary {
+    background: $secondary-color;
+    padding: 15px;
+    border-radius: 8px;
+    h2, h3 { text-align: center; }
+    ul {
+        list-style: none;
+        padding: 0;
+        li {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+            font-size: 16px;
+        }
+    }
+}
+
+.payment-section {
+    margin-top: 20px;
+    h2 { text-align: center; }
+    input { margin-right: 10px; }
+}
+
+#checkout-btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color: $primary-color;
+    color: white;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#checkout-btn:hover {
+    background: darken($primary-color, 10%);
+}
